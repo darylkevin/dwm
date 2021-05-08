@@ -28,6 +28,11 @@ static const char *colors[][3]      = {
 	[SchemeUrg]  = { col_gray4, col_neon,  col_urgborder  },
 };
 
+static const char *const autostart[] = {
+	"slstatus", NULL,
+	NULL /* terminate */
+};
+
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
