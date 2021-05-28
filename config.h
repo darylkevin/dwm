@@ -35,6 +35,7 @@ static const char *const autostart[] = {
 	"pa-applet", NULL,
 	"picom", "--experimental-backends", NULL,
 	"nm-applet", NULL,
+	"flameshot", "gui", NULL,
     "sh", "-c", "~/.doom.d/exwm/swapesc.sh", NULL,
 	"dunst", "-config", "~/.config/dunst/dunstrc", NULL,
 	NULL /* terminate */
