@@ -84,7 +84,8 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "st", NULL };
 static const char *roficmd[] = { "rofi", "-show", "drun", "-config", "~/.config/rofi/themes/dt-center.rasi", "-display-drun", "'Run: '", "-drun-display-format", "'{name}'", "-show-icons", NULL };
 static const char *emacscmd[] = { "emacsclient", "-c", "-a", "emacs", NULL };
-static const char *screenshot[] = { "flameshot", "gui", NULL };
+static const char *maimsave[] = { "msave.sh", NULL };
+static const char *maimclip[] = { "mclip.sh", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -92,7 +93,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = roficmd } },
 	{ MODKEY,                       XK_e,      spawn,          {.v = emacscmd } },
-	{ 0,                            XK_Print,  spawn,          {.v = screenshot } },
+	{ 0,                            XK_Print,  spawn,          {.v = maimsave } },
+	{ 0|ShiftMask,                  XK_Print,  spawn,          {.v = maimclip } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
