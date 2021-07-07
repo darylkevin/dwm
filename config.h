@@ -30,7 +30,7 @@ static const char *colors[][3]      = {
 
 static const char *const autostart[] = {
 	"slstatus", NULL,
-    "feh", "--bg-scale", "/home/xfdg/Pictures/Wallpapers/ZT6cdC7.jpeg", NULL, "emacs", "--daemon", NULL,
+    "feh", "--bg-scale", "/home/xdgx/Pictures/Wallpapers/ZT6cdC7.jpeg", NULL, "emacs", "--daemon", NULL,
 	"pa-applet", NULL,
 	"picom", "--experimental-backends", NULL,
 	"nm-applet", NULL,
