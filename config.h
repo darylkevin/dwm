@@ -31,11 +31,12 @@ static const char *colors[][3]      = {
 static const char *const autostart[] = {
 	"slstatus", NULL,
     "feh", "--bg-scale", "/home/xdgx/Pictures/Wallpapers/ZT6cdC7.jpeg", NULL, "emacs", "--daemon", NULL,
-	"pasystray", NULL,
+	"volumeicon", NULL,
 	"picom", "--experimental-backends", NULL,
 	"nm-applet", NULL,
 	"flameshot", NULL,
     "sh", "-c", "~/.doom.d/exwm/swapesc.sh", NULL,
+    "sh", "-c", "~/Git_Repos/dwm/arandr-layout.sh", NULL,
 	"dunst", "-config", "~/.config/dunst/dunstrc", NULL,
 	NULL /* terminate */
 };
