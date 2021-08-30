@@ -37,7 +37,7 @@ static const char *const autostart[] = {
 	"flameshot", NULL,
     "sh", "-c", "~/.doom.d/exwm/swapesc.sh", NULL,
     "sh", "-c", "~/Git_Repos/dwm/arandr-layout.sh", NULL,
-    "sh", "-c", "volumeicon", NULL,
+    "volumeicon", NULL,
 	"dunst", "-config", "~/.config/dunst/dunstrc", NULL,
 	NULL /* terminate */
 };
