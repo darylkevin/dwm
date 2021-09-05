@@ -38,6 +38,7 @@ static const char *const autostart[] = {
     "sh", "-c", "~/.doom.d/exwm/swapesc.sh", NULL,
     "sh", "-c", "~/Git_Repos/dwm/arandr-layout.sh", NULL,
     "volumeicon", NULL,
+    "blueman-applet", NULL,
 	"dunst", "-config", "~/.config/dunst/dunstrc", NULL,
 	NULL /* terminate */
 };
