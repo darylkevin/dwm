@@ -89,6 +89,7 @@ static const char *roficmd[] = { "rofi", "-show", "drun", "-config", "~/.config/
 static const char *emacscmd[] = { "emacsclient", "-c", "-a", "emacs", NULL };
 static const char *maimsave[] = { "msave.sh", NULL };
 static const char *maimclip[] = { "mclip.sh", NULL };
+static const char *slock[] = { "slock", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -96,6 +97,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = roficmd } },
 	{ MODKEY,                       XK_e,      spawn,          {.v = emacscmd } },
+	{ MODKEY|ShiftMask,             XK_x,      spawn,          {.v = slock } },
 	{ 0,                            XK_Print,  spawn,          {.v = maimsave } },
 	{ 0|ShiftMask,                  XK_Print,  spawn,          {.v = maimclip } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
