@@ -21,16 +21,17 @@ static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
 static const char col_urgborder[]   = "#ff0000";
 static const char col_neon[]        = "#1abc9c";
+static const char col_pink[]        = "#fe59ae";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_neon,  col_neon  },
-	[SchemeUrg]  = { col_gray4, col_neon,  col_urgborder  },
+	[SchemeSel]  = { col_gray4, col_pink,  col_pink  },
+	[SchemeUrg]  = { col_gray4, col_pink,  col_urgborder  },
 };
 
 static const char *const autostart[] = {
 	"slstatus", NULL,
-    "feh", "--bg-scale", "/home/ds/Pictures/Wallpapers/ZT6cdC7.jpeg", NULL,
+    "feh", "--bg-scale", "/home/ds/Pictures/Wallpapers/thumb-1920-838892.png", NULL,
    	"emacs", "--daemon", NULL,
 	"picom", "--experimental-backends", NULL,
 	"nm-applet", NULL,
@@ -82,7 +83,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_neon, "-sf", col_gray4, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_pink, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "kitty", NULL };
 /*static const char *termcmd[]  = { "alacritty", NULL };*/
 /*static const char *termcmd[]  = { "st", NULL };*/
