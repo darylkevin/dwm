@@ -91,7 +91,7 @@ static const char *roficmd[] = { "rofi", "-combi-modi", "drun", "-theme", "~/.co
 static const char *emacscmd[] = { "emacsclient", "-c", "-a", "emacs", NULL };
 static const char *maimsave[] = { "msave.sh", NULL };
 static const char *maimclip[] = { "mclip.sh", NULL };
-static const char *sclock[] = { "slock", NULL };
+static const char *sclock[] = { "i3lock", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
