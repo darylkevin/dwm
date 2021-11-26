@@ -34,10 +34,7 @@ static const char *const autostart[] = {
     "feh", "--bg-scale", "/home/ds/Pictures/Wallpapers/thumb-1920-838892.png", NULL,
    	"emacs", "--daemon", NULL,
 	"picom", "--experimental-backends", NULL,
-	"nm-applet", NULL,
 	"flameshot", NULL,
-    "sh", "-c", "~/bin/swapesc.sh", NULL,
-    "sh", "-c", "~/Git_Repos/dwm/arandr-layout.sh", NULL,
     /* "volumeicon", NULL, */
     "blueman-applet", NULL,
 	"dunst", "-config", "~/.config/dunst/dunstrc", NULL,
