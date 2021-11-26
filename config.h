@@ -34,9 +34,7 @@ static const char *const autostart[] = {
     "feh", "--bg-scale", "/home/ds/Pictures/Wallpapers/thumb-1920-838892.png", NULL,
    	"emacs", "--daemon", NULL,
 	"picom", "--experimental-backends", NULL,
-	"flameshot", NULL,
     /* "volumeicon", NULL, */
-    "blueman-applet", NULL,
 	"dunst", "-config", "~/.config/dunst/dunstrc", NULL,
 	NULL /* terminate */
 };
