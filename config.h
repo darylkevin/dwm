@@ -35,7 +35,7 @@ static const char *const autostart[] = {
    	"emacs", "--daemon", NULL,
 	"picom", "--experimental-backends", NULL,
     /* "volumeicon", NULL, */
-	"dunst", "-config", "~/.config/dunst/dunstrc", NULL,
+	/* "dunst", "-config", "~/.config/dunst/dunstrc", NULL, */
 	NULL /* terminate */
 };
 
