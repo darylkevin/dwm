@@ -34,6 +34,7 @@ static const char *const autostart[] = {
     "feh", "--bg-scale", "/home/ds/Pictures/Wallpapers/baphomet05.jpg", NULL,
    	"emacs", "--daemon", NULL,
 	"picom", "--experimental-backends", NULL,
+	"mullvad", "connect", NULL,    /* Connect to MullvadVPN at startup */
     /* "volumeicon", NULL, */
 	/* "dunst", "-config", "~/.config/dunst/dunstrc", NULL, */
 	NULL /* terminate */
