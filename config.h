@@ -31,7 +31,7 @@ static const char *colors[][3]      = {
 
 static const char *const autostart[] = {
 	"slstatus", NULL,
-    "feh", "--bg-scale", "/home/ds/Pictures/Wallpapers/modeus04.jpg", NULL,
+    "feh", "--bg-scale", "/home/ds/Pictures/Wallpapers/baphomet05.jpg", NULL,
    	"emacs", "--daemon", NULL,
 	"picom", "--experimental-backends", NULL,
     /* "volumeicon", NULL, */
