@@ -25,13 +25,13 @@ static const char col_pink[]        = "#fe59ae";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_pink,  col_pink  },
-	[SchemeUrg]  = { col_gray4, col_pink,  col_urgborder  },
+	[SchemeSel]  = { col_gray4, col_neon,  col_neon  },
+	[SchemeUrg]  = { col_gray4, col_neon,  col_urgborder  },
 };
 
 static const char *const autostart[] = {
 	"slstatus", NULL,
-    "feh", "--bg-scale", "/home/ds/Pictures/Wallpapers/baphomet05.jpg", NULL,
+    "feh", "--bg-scale", "/home/ds/Pictures/Wallpapers/modeus04.jpg", NULL,
    	"emacs", "--daemon", NULL,
 	"picom", "--experimental-backends", NULL,
 	"mullvad", "connect", NULL,    /* Connect to MullvadVPN at startup */
