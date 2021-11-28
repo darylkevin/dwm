@@ -1,9 +1,9 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 2;        /* border pixel of windows */
+static const unsigned int borderpx  = 3;        /* border pixel of windows */
 static const int startwithgaps[]    = { 1 };	/* 1 means gaps are used by default, this can be customized for each tag */
-static const unsigned int gappx[]   = { 7 };   /* default gap between windows in pixels, this can be customized for each tag */
+static const unsigned int gappx[]   = { 4 };   /* default gap between windows in pixels, this can be customized for each tag */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
 static const unsigned int systrayonleft = 1;   	/* 0: systray in the right corner, >0: systray on left of status text */
@@ -31,7 +31,7 @@ static const char *colors[][3]      = {
 
 static const char *const autostart[] = {
 	"slstatus", NULL,
-    "feh", "--bg-scale", "/home/ds/Pictures/Wallpapers/modeus05.jpg", NULL,
+    "feh", "--bg-scale", "/home/ds/Pictures/Wallpapers/modeus04.jpg", NULL,
    	"emacs", "--daemon", NULL,
 	"picom", "--experimental-backends", NULL,
     /* "volumeicon", NULL, */
